@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-default);
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --color-default: #000;
+  --color-second: #40176C;
+  --color-light: #EBE0FD;
+  --color-white: #FFFFFF;
+}
+
+.ml100 {
+  margin-left: 100px !important;
+}
+
+.ml50 {
+  margin-left: 50px !important;
+}
+
+.mr50 {
+  margin-right: 50px !important;
+}
+
+.ml20 {
+  margin-left: 20px !important;
+}
+
+.margin60 {
+  margin: 60px 0;
+}
+
+.margin50 {
+  margin: 50px 0;
+}
+
+.margin70 {
+  margin: 70px 0;
+}
+
+.margin80 {
+  margin: 80px 0;
+}
+
+.margin100 {
+  margin: 100px 0;
+}
+
+.margin40 {
+  margin: 40px 0;
+}
+
+.margin30 {
+  margin: 30px 0;
+}
+
+.margin20 {
+  margin: 20px 0;
+}
+
+.padding60 {
+  padding: 60px;
+}
+
+.padding50 {
+  padding: 50px;
+}
+
+.padding70 {
+  padding: 70px;
+}
+
+.padding100 {
+  padding: 100px 0;
+}
+
+.padding40 {
+  padding: 40px;
+}
+
+.padding30 {
+  padding: 30px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.navbar img {
+  width: 80%;
+}
+.navbar .nav-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar .nav-list li {
+  list-style: none;
+  margin: 10px 20px;
+}
+.navbar .nav-list li a {
+  text-decoration: none;
+  color: var(--color-default);
+}
+.navbar .nav-list li .host {
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: var(--color-second);
+  color: var(--color-white);
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar .nav-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: var(--color-second);
+  }
+  .navbar .nav-list li {
+    list-style: none;
+    margin: 10px 20px;
+  }
+  .navbar .nav-list li a {
+    text-decoration: none;
+    color: var(--color-white);
+  }
+  .navbar .nav-list li .host {
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: var(--color-white);
+    color: var(--color-second);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navbar .nav-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    flex-direction: column;
+    background-color: var(--color-second);
+  }
+  .navbar .nav-list li {
+    list-style: none;
+    margin: 10px 20px;
+  }
+  .navbar .nav-list li a {
+    text-decoration: none;
+    color: var(--color-white);
+  }
+}/*# sourceMappingURL=style.css.map */
