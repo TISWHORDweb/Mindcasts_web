@@ -128,6 +128,10 @@
   width: 85%;
 }
 
+.pic80 img {
+  width: 80%;
+}
+
 .pic75 img {
   width: 75%;
 }
@@ -368,6 +372,67 @@
   outline: none;
   border: none;
   padding: 10px 30px;
+}
+
+.banner1 {
+  background-color: var(--color-light);
+  border-radius: 20px;
+  padding: 30px;
+}
+.banner1 .first {
+  display: flex;
+  align-items: center;
+}
+.banner1 .first img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.banner1 .first span {
+  font-size: 13px;
+}
+.banner1 .second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.banner1 .second .first img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.banner1 .second .second {
+  margin: 20px;
+}
+.banner1 .second .second img {
+  width: 20px;
+  height: 20px;
+  margin-right: 50px;
+}
+
+.section4 .each {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--color-light);
+}
+.section4 .each img {
+  width: 182.3481445313px;
+  height: 203.592590332px;
+}
+.section4 .each .text {
+  margin-left: 15px;
+}
+.section4 .each .text p, .section4 .each .text span {
+  color: #0E0E0E;
+}
+.section4 .each .text p {
+  font-size: 15px;
+}
+.section4 .each .text span {
+  font-size: 12px;
 }
 
 .footer .divider {
