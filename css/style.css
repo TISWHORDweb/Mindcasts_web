@@ -124,6 +124,22 @@
   color: var(--color-second) !important;
 }
 
+.pic85 img {
+  width: 85%;
+}
+
+.pic75 img {
+  width: 75%;
+}
+
+.pic65 img {
+  width: 65%;
+}
+
+.pic90 img {
+  width: 90%;
+}
+
 .banner .set2 h2 {
   font-size: 50px;
 }
@@ -266,6 +282,60 @@
 .section2 .set1 .bottom .min {
   font-size: 12px;
   margin-left: 10px;
+}
+.section2 .set2 {
+  position: relative;
+}
+.section2 .set2 .top img {
+  width: 100%;
+  border-radius: 20px 20px;
+  -o-object-position: center;
+     object-position: center;
+}
+.section2 .set2 .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+}
+.section2 .set2 .bottom div {
+  margin: 0 20px;
+}
+.section2 .set2 .bottom .play {
+  background-color: rgba(0, 0, 0, 0.5333333333);
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  border-radius: 15px;
+  border: 2px solid var(--color-white);
+}
+.section2 .set2 .bottom .play img {
+  width: 30%;
+}
+.section2 .set2 .bottom span {
+  color: white;
+}
+.section2 .set2 .bottom p {
+  color: white;
+  font-weight: 600;
+}
+.section2 .set2 .bottom .min {
+  font-size: 13px;
+}
+.section2 .see {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 .see b {
+  margin-right: 10px;
+  color: var(--color-second);
+  font-size: 15px;
 }
 
 .section3 {
