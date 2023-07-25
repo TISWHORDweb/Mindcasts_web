@@ -12,6 +12,8 @@
   --color-second: #40176C;
   --color-light: #EBE0FD;
   --color-white: #FFFFFF;
+  --color-light-lights: #F7F3FE;
+  --color-light-light: rgba(255, 255, 255, 0.679);
 }
 
 .ml100 {
@@ -116,6 +118,199 @@
   background-color: var(--color-second);
   color: var(--color-white);
 }
+.navbar .nav-list li .host:hover {
+  border: 2px solid var(--color-second);
+  background-color: transparent;
+  color: var(--color-second) !important;
+}
+
+.banner .set2 h2 {
+  font-size: 50px;
+}
+.banner .set2 p {
+  font-size: 20px;
+}
+.banner .set2 .micro {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--color-second);
+  padding: 5px 30px;
+  width: 50%;
+  border-radius: 36px;
+  cursor: pointer;
+}
+.banner .set2 .micro p {
+  font-size: 17px;
+}
+.banner .set2 .micro img {
+  width: 50px;
+  height: 50px;
+  -o-object-position: center;
+     object-position: center;
+}
+.banner .set2 .micro:hover {
+  background-color: var(--color-second);
+}
+.banner .set2 .micro:hover p {
+  color: var(--color-white) !important;
+}
+.banner .set1 .top {
+  background-color: var(--color-light);
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+}
+.banner .set1 .top img {
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+}
+.banner .set1 .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-light-lights);
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+}
+.banner .set1 .bottom .play img {
+  width: 35px;
+  height: 35px;
+}
+.banner .set1 .bottom span {
+  color: grey;
+}
+.banner .set1 .bottom .min {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.section1 .set1 {
+  position: relative;
+}
+.section1 .set1 .top img {
+  width: 100%;
+  border-radius: 20px 20px;
+  -o-object-position: center;
+     object-position: center;
+}
+.section1 .set1 .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-light-light);
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+}
+.section1 .set1 .bottom .play img {
+  width: 35px;
+  height: 35px;
+}
+.section1 .set1 .bottom span {
+  color: grey;
+}
+.section1 .set1 .bottom .min {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.section1 .set2 h3 {
+  font-size: 35px;
+}
+.section1 .set2 ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section1 .set2 ul li {
+  list-style: none;
+  background-color: var(--color-light);
+  padding: 18px 30px;
+  border-radius: 15px;
+  font-weight: 500;
+  color: var(--color-second);
+  margin: 10px;
+}
+
+.section2 h3 {
+  font-size: 35px;
+}
+.section2 .set1 {
+  position: relative;
+}
+.section2 .set1 .top img {
+  width: 100%;
+  border-radius: 20px 20px;
+  -o-object-position: center;
+     object-position: center;
+}
+.section2 .set1 .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-light-light);
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+}
+.section2 .set1 .bottom img {
+  width: 35px;
+  height: 35px;
+}
+.section2 .set1 .bottom span {
+  color: grey;
+}
+.section2 .set1 .bottom .min {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.section3 {
+  background-color: var(--color-second);
+  background-image: url(/image/Background.png);
+}
+.section3 img {
+  width: 80%;
+}
+.section3 .text {
+  padding-top: 50px;
+  color: var(--color-white) !important;
+}
+.section3 .text span {
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.section3 .text p {
+  color: var(--color-white) !important;
+}
+.section3 .text h3 b {
+  font-size: 35px;
+  color: var(--color-white);
+}
+.section3 .text button {
+  background-color: rgba(0, 0, 0, 0.4392156863);
+  border-radius: 30px;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+}
+
+.footer .divider {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer img {
+  width: 70%;
+}
+.footer ul li {
+  list-style: none;
+  margin: 10px;
+}
 
 @media only screen and (max-width: 800px) {
   .navbar .nav-list {
@@ -140,6 +335,12 @@
     background-color: var(--color-white);
     color: var(--color-second);
   }
+  .banner h2 {
+    font-size: 40px;
+  }
+  .banner .micro {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 500px) {
   .navbar .nav-list {
@@ -157,5 +358,11 @@
   .navbar .nav-list li a {
     text-decoration: none;
     color: var(--color-white);
+  }
+  .banner h2 {
+    font-size: 40px;
+  }
+  .banner .micro {
+    width: 100% !important;
   }
 }/*# sourceMappingURL=style.css.map */
